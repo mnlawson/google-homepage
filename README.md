@@ -1,0 +1,1 @@
+This project deals with creating a homepage and also getting use to the Git & GitHub commands.
