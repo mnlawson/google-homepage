@@ -1,11 +1,30 @@
+body, html {
+    width: auto;
+    margin: auto;
+    border: .5px solid white;
+}
+
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 5px 5px 5px 5px;
+}
+
+a {
+    padding: 1px;
 }
 
 li a {
-    display: inline;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
 }
 
 #nav-float-left {
@@ -15,3 +34,52 @@ li a {
 #nav-float-right {
     float: right;
 }
+
+#footer {
+    text-align: center;
+    background-color: chartreuse;
+}
+
+#footer-float-left {
+    float: left;
+}
+
+#footer-right-left {
+    float: right;
+}
+
+#img-google {
+    text-align: center;
+}
+
+input[type=text] {
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    display: block;
+    margin: 0 auto;
+    width:35%;
+  }
+  
+  input[type=text]:focus {
+    width: 60%;
+  }
+
+  input::placeholder {
+      color: green;
+      font-size: .75em;
+      font-style: italic;
+  }
+
+  #buttons-search {
+      text-align: center;
+      padding-top: 20px;
+  }
+
+  footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: blue;
+      font-size: 80%;
+  }
