@@ -24,7 +24,7 @@ li a {
 
 
 li a:hover {
-    background-color: #111;
+    background-color: #fff;
 }
 
 #nav-float-left {
@@ -58,7 +58,12 @@ input[type=text] {
     display: block;
     margin: 0 auto;
     width:35%;
+    background-image: url(/images/Google_microphone_logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
   }
+
+
   
   input[type=text]:focus {
     width: 60%;
@@ -68,8 +73,10 @@ input[type=text] {
       color: green;
       font-size: .75em;
       font-style: italic;
+      padding-left: 5px;
   }
 
+  
   #buttons-search {
       text-align: center;
       padding-top: 20px;
